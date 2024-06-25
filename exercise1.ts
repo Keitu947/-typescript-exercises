@@ -1,16 +1,11 @@
 // 1. Declare a variable that holds a string value without explicitly stating its type
-let myString = "Hello, World!";
+let greetingMessage = 'Hello, TypeScript'; // Renamed to avoid conflict
 
 // 2. Declare a variable that holds a number value and explicitly state its type
-let myNumber: number = 42;
+let age: number = 30;
 
 // 3. Declare a variable that can hold a value of any type
-let anyValue: any;
-anyValue = "A string";
-anyValue = 100;
-anyValue = true;
+let anything: any = "I can be anything";
 
 // 4. Declare a variable that can hold either a string or a number
-let stringOrNumber: string | number;
-stringOrNumber = "This is a string";
-stringOrNumber = 123;
+let strOrNum: string | number = "Could be a string or a number";
